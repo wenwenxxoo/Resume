@@ -1,14 +1,14 @@
 var config = {
     /*在这里配置你的基本信息，所有数据以字符串形式给出*/
-    name: "卢本伟",
+    name: "张子文",
     sex: "男",
-    age: "19",
-    phone: "19872222222",
-    email: "happysnaker@foxmail.com this`s true",
-    address: "现居浙江省义乌市",
-    qq: "11",
-    log: "Happysnaker",
-    excpect_work: "Java/Go后端开发",
+    age: "29",
+    phone: "保密",
+    email: "zhangziwen_mail@163.com this`s true",
+    address: "现居北京市",
+    qq: "609027995",
+    log: "好好生活，慢慢相遇。",
+    excpect_work: "大数据开发",
 
 
     /*在这里配置首页的座右铭集合*/
@@ -33,13 +33,13 @@ var config = {
     /*在这里配置首页的见面信息，你可以内嵌HTML标签以调整格式*/
     welcome: "青青子衿，悠悠我心<br>" +
              "但为君故，沉吟至今<br>" +
-             "你好，我是卢本伟，南昌大学软件工程大二在读生<br>" +
+             "你好，我是张子文<br>" +
              "很高兴见到你!",
 
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>你好！我叫卢本伟，性别男，南昌大学软件学院大二在读。我期望的工作岗位是Go/Java后端开发。</p>" +
-        "<p>我有着较多的Java编程经验，计算机基础知识掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同作战能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排</p>" +
+    about: "<p>你好！我叫张子文，性别男。我期望的工作岗位是大数据开发。</p>" +
+        "<p>我有着较多的开发经验，计算机基础知识掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同作战能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排</p>" +
         "<p>十分期待与您的联系!</p>",
 
 
@@ -50,8 +50,8 @@ var config = {
     */  
     skills: [
         ["Java", 80, "red"],
-        ["GoLang", 77, "blue"],
-        ["SQL", 75, "#1abc9c"],
+        ["SQL", 80, "blue"],
+        ["数仓", 80, "#1abc9c"],
         ["HTML5", 67, "rgba(0,0,0)"],
         ["CSS3", 60, "yellow"],
         ["JavaScript", 70, "pink"]
@@ -132,11 +132,11 @@ var config = {
      * 建议您放置数量 <= 5
      */
     icon: [
-        ["./svg/LeetCode.svg", "https://leetcode-cn.com/u/happysnaker/", "我的力扣主页"],
-        ["./svg/github.svg", "https://github.com/happysnaker", "我的GitHub主页"],
-        ["./svg/博客.svg", "http://1.15.234.109:8000", "我的个人博客"],
-        ["./svg/掘金.svg", "https://juejin.cn/user/3853167638625000", "我的掘金主页"],
-        ["./svg/知乎.svg", "https://www.zhihu.com/people/tian-xia-you-dao-81", "我的知乎主页"]
+        ["./svg/LeetCode.svg", "https://", "我的力扣主页"],
+        ["./svg/github.svg", "https://", "我的GitHub主页"],
+        ["./svg/博客.svg", "http://", "我的个人博客"],
+        ["./svg/掘金.svg", "https://", "我的掘金主页"],
+        ["./svg/知乎.svg", "https://", "我的知乎主页"]
     ],
 
 
