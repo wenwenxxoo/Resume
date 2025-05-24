@@ -51,26 +51,26 @@ var config = {
     skills: [
         ["Java", 80, "red"],
         ["SQL", 80, "blue"],
-        ["数仓", 80, "#1abc9c"],
-        ["HTML5", 67, "rgba(0,0,0)"],
-        ["CSS3", 60, "yellow"],
-        ["JavaScript", 70, "pink"]
+        ["python", 75, "#1abc9c"],
+        ["Scala", 75, "rgba(0,0,0)"],
+        ["Hadoop", 70, "yellow"],
+        ["Spark", 70, "pink"]
     ],
 
 
     /*这里填写你的技能描述，你可以内嵌HTML标签以调整格式*/
     skills_description: "<ul>" +
-        "     <li>操作系统、计算机网络等编程基础知识良好。</li>" +
-        "     <li>熟练掌握Java基础。</li>" +
-        "     <li>熟悉JavaIO、多线程、集合等基础框架。</li>" +
-        "     <li>了解JVM原理。</li>" +
-        "     <li>熟悉Go语言开发基本知识。</li>" +
-        "     <li>熟悉SQL语句编写以及调优。</li>" +
-        "     <li>熟悉基本Linux命令操作。</li>" +
-        "     <li>熟悉Spring、ibatis、struts等框架的使用，了解其原理与机制。</li>" +
-        "     <li>熟悉缓存、消息等机制。</li>" +
-        "     <li>了解分布式系统的设计与应用。</li>" +
-        "     <li>熟悉HTML、CSS、JavaScript以及相应前端知识。</li>" +
+    "     <li>熟悉Java基础，熟悉使用Scala语言，可以用Scala进行Spark开发，熟悉SQL，可用于数仓开发，掌握Python开发。</li>" +
+    "     <li>熟悉阿里云大数据开发平台，例如：Dataworks、Maxcomput、Hologres、OSS、DTS、实时计算Flink版等</li>" +
+    "     <li>熟悉观远BI，了解其ETL开发及BI报告开发。</li>" +
+    "     <li>熟悉Hadoop，掌握HDFS的存储，MapReduce的分布式计算流程。</li>" +
+    "     <li>熟悉Spark，掌握Spark Core、Spark SQL、SparkStreaming的使用，熟悉使用Spark提交流程。</li>" +
+    "     <li>了解Kafka消息队列，对Kafka的消息分发、文件分布式存储机制，消息不丢失有一些理解。</li>" +
+    "     <li>了解Zookeeper选举机制有一定了解</li>" +
+    "     <li>了解Hive，可以使用Hive构建数据仓库。</li>" +
+    "     <li>了解Flink，使用Flink进行过项目开发，了解Flink的任务调度及执行。</li>" +
+    "     <li>了解linux系统，熟悉常用的linux的shell命令，能在linux系统下搭建开发环境。</li>" +
+    "     <li>使用过多种数据库例如：MySQL、SqlServe、HBase、Redis、Gbase、阿里云原生数据仓库AnalyticDB MySQL版等。</li>" +
         " </ul>",
 
 
@@ -96,17 +96,20 @@ var config = {
         //如果您内有工作经历，您可以采取下列写法
         // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
 
-        ["2020/7/1 — 2021/8/10", "<br>阎王殿实习生",
-            "<p><strong>阎王殿研发部</strong></p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>"
+        ["2018-06 — 2019-06", "<br>上海复深蓝软件股份有限公司",
+            "<p><strong>大数据开发工程师</strong></p>" +
+            "<p>负责大数据相关项目的研发、维护与优化。</p>" 
         ],
 
-        ["2020/7/1 — 2021/8/10", "<br>阎王殿实习生",
-            "<p><strong>阎王殿研发部</strong></p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>"
-        ]
+        ["2019-06 — 2021-06", "<br>迪锐天成信息技术（北京）有限公司",
+            "<p><strong>java开发工程师/大数据开发工程师</strong></p>" +
+            "<p>负责大数据相关项目的研发与维护，负责一些java项目的开发工作，兼带项目管理工作。</p>" 
+        ],
+
+        ["2021-11 — 至今", "<br>彼悦（北京）科技有限公司",
+        "<p><strong>大数据开发工程师</strong></p>" +
+        "<p>负责开发工作，主要包括数仓，接口，及BI报告开发。</p>" 
+    ]
     ],
 
 
@@ -132,11 +135,11 @@ var config = {
      * 建议您放置数量 <= 5
      */
     icon: [
-        ["./svg/LeetCode.svg", "https://", "我的力扣主页"],
-        ["./svg/github.svg", "https://", "我的GitHub主页"],
-        ["./svg/博客.svg", "http://", "我的个人博客"],
-        ["./svg/掘金.svg", "https://", "我的掘金主页"],
-        ["./svg/知乎.svg", "https://", "我的知乎主页"]
+        ["./svg/LeetCode.svg", "https://leetcode.cn/problemset/", "我的力扣主页"],
+        ["./svg/github.svg", "https://github.com/wenwenxxoo", "我的GitHub主页"],
+        ["./svg/vb.svg", "https://weibo.com/u/3152735874", "我的个人微博"],
+        ["./svg/csdn.svg", "https://blog.csdn.net/weixin_43513980?type=blog", "我的CSDN主页"],
+        ["./svg/知乎.svg", "https://www.zhihu.com/people/zhang-zi-wen-69-92", "我的知乎主页"]
     ],
 
 
